@@ -37,8 +37,8 @@ services:
     image: headwindmdm/hmdm:0.1.5
     ports:
       # Uncomment this port forwarding if you want to use plain HTTP instead of HTTPS
-      - 80:8080
-      - 443:8443
+      - 6080:8080
+      - 6443:8443
       - 31000:31000
     volumes:
       - ./volumes/work:/usr/local/tomcat/work
